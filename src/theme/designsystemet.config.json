@@ -1,0 +1,80 @@
+{
+  "$schema": "node_modules/@digdir/designsystemet/dist/config.schema.json",
+  "outDir": "./design-tokens",
+  "themes": {
+    "theme": {
+      "colors": {
+        "main": {
+          "accent": "#2A4D38"
+        },
+        "support": {
+          "sec": "#4E3553",
+          "cardboard": "#7A5A35"
+        },
+        "neutral": "#1F1A17"
+      },
+      "overrides": {
+        "severity": {
+          "info": "#2B5F8A",
+          "success": "#3D7A44",
+          "warning": "#B47A1B",
+          "danger": "#882235"
+        },
+        "colors": {
+          "cardboard": {
+            "background-default": {
+              "dark": "#151818"
+            },
+            "background-tinted": {
+              "dark": "#1c2020"
+            },
+            "surface-default": {
+              "dark": "#252929"
+            },
+            "surface-tinted": {
+              "dark": "#2b2e2e"
+            },
+            "surface-hover": {
+              "dark": "#323636"
+            },
+            "surface-active": {
+              "dark": "#404444"
+            },
+            "border-subtle": {
+              "dark": "#4d5151"
+            },
+            "border-default": {
+              "dark": "#7f8282"
+            },
+            "border-strong": {
+              "dark": "#a6a8a8"
+            },
+            "text-subtle": {
+              "dark": "#a6a8a8"
+            },
+            "text-default": {
+              "dark": "#ececec"
+            },
+            "base-default": {
+              "dark": "#a9acab"
+            },
+            "base-hover": {
+              "dark": "#939796"
+            },
+            "base-active": {
+              "dark": "#7e8281"
+            },
+            "base-contrast-subtle": {
+              "dark": "#1c1c1c"
+            },
+            "base-contrast-default": {
+              "dark": "#000000"
+            }
+          }
+        }
+      },
+      "borderRadius": 4
+    }
+  }
+}
+
